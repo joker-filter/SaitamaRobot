@@ -77,6 +77,8 @@ Hi {}, my name is {}!
 I am an Anime themed group management bot.
 Build by weebs for weebs, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href=https://t.me/Robert_Pattinson119>🅁🄾🄱🄴🅁🅃</a>
 """
 
 HELP_STRINGS = """
@@ -222,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Saitama to your group",
+                                text="𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -230,24 +232,24 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support Group",
+                                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ",
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates Channel",
-                                url="https://t.me/OnePunchUpdates",
+                                text="ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ",
+                                url="https://t.me/Robert_Pattinson119",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="ɢᴇᴛᴛɪɴɢ sᴛᴀʀᴛᴇᴅ ɢᴜɪᴅᴇ",
+                                url="https://t.me/Robert_Pattinson119/24",
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                text="ᴏᴡɴᴇʀ",
+                                url="https://t.me/Robert_Pattinson119/8",
                             )
                         ],
                     ]
